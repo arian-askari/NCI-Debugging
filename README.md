@@ -1,3 +1,14 @@
+# Debugging
+
+
+## Questions to investigate the code
+
+# Questions:
+
+1. **w and w/o PAWA**: How they set w/ and w/o PAWA? Answer: so far, I found        adaptive=True in https://github.com/solidsea98/Neural-Corpus-Indexer-NCI/blob/2638deed77d71919b28d2f6630397f38b7a37902/NCI_model/transformers/configuration_transfo_xl.py#L131 but I am unsure if it is really related. I also see
+2. 
+
+---
 # [👑 NeurIPS 2022 Outstanding Paper] A Neural Corpus Indexer for Document Retrieval -- NCI ([Paper](https://arxiv.org/abs/2206.02743)) 
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python3-1f425f.svg?color=purple)](https://www.python.org/)
@@ -123,3 +134,4 @@ We learned a lot and borrowed some code from the following projects when buildin
 
 - [Transformers](https://github.com/huggingface/transformers)
 - [docTTTTTquery](https://github.com/castorini/docTTTTTquery) 
+
